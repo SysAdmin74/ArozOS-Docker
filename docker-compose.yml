@@ -1,12 +1,12 @@
 version: "2"
 services:
   app:
-    build: ./container
-    volumes:
-      - ./container/data/files:/arozos/src/files
-      - ./container/data/tmp:/arozos/src/tmp
-      - ./container/data/system:/arozos/src/system
+    build: ./app
+#    volumes:
+#      - ./app/data/files:/arozos/src/files
+#      - ./app/data/tmp:/arozos/src/tmp
+#      - ./app/data/system:/arozos/src/system
     ports:
-      - "8980:80"
-      - "8921:21"
+      - "8981:80"
+      - "8923:21"
     restart: always
