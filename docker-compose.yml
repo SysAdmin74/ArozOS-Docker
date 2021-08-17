@@ -1,7 +1,7 @@
 version: "2"
 services:
   app:
-    build: ./app
+    build: ./container
 #    volumes:
 #      - ./app/data/files:/arozos/src/files
 #      - ./app/data/tmp:/arozos/src/tmp
