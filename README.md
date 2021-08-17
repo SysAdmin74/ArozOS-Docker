@@ -1,2 +1,2 @@
 # ArozOS-Docker
-This is ArozOS Docker version
+This is [ArozOS](https://github.com/tobychui/arozos) with docker support.
