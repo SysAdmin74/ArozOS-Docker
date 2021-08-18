@@ -6,6 +6,6 @@ services:
       - ./app/data/files:/arozos/src/files
 
     ports:
-      - "8981:80"
-      - "8923:21"
+      - "8980:80"
+      - "8921:21"
     restart: always
