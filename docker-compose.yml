@@ -4,8 +4,7 @@ services:
     build: ./container
     volumes:
       - ./app/data/files:/arozos/src/files
-#      - ./app/data/tmp:/arozos/src/tmp
-#      - ./app/data/system:/arozos/src/system
+
     ports:
       - "8981:80"
       - "8923:21"
