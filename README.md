@@ -1,8 +1,11 @@
 # ArozOS-Docker# ArozOS-Docker
 This is [ArozOS](https://github.com/tobychui/arozos) with docker support.
-
 I am also newbies to docker, so this is first time making it.
 
+## Run it with docker compose
+```
+docker-compose up
+```
 ### Requirement..
 For newbies make sure you have docker-compose installed. In case you can't do things with docker-compose.yaml file.
 
