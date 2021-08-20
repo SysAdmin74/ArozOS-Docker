@@ -3,7 +3,7 @@ services:
   app:
     build: ./container
     volumes:
-      - ./app/data/files:/arozos/src/files
+      - ./container/data/files:/arozos/src/files
 
     ports:
       - "8980:80"
