@@ -4,8 +4,7 @@ This is [ArozOS](https://github.com/tobychui/arozos) with docker support.
 I am also newbies to docker, so this is first time making it.
 I will be restarting this project and keep it updated with the official ArozOS
 
-## Run it with docker compose     $3,168
-合約期間     
+## Run it with docker compose    
 ```
 docker-compose up
 ```
