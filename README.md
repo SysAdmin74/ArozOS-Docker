@@ -12,7 +12,8 @@ Please don't use it in actual production environment, if you have awesome ideas 
 - Maybe Prebuild Image?
 
 
-## Run it with docker compose    
+## Run it with docker compose 
+Check docker-compose.yaml before you run. Change the data paths inside the yaml to your path.
 ```
 docker-compose up
 ```
