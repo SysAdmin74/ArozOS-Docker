@@ -4,8 +4,8 @@ services:
     build: ./container
     volumes:
       - ./container/data/files:/arozos/src/files
-      - ./container/data/web:/arozos/web
-      - ./container/data/system:/arozos/system
+      - ./container/data/web:/arozos/src/web
+      - ./container/data/system:/arozos/src/system
 
     ports:
       - "8980:80"
