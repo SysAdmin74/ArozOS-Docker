@@ -8,6 +8,5 @@ services:
       - ./container/data/system:/arozos/src/system
 
     ports:
-      - "8980:80"
-      - "8921:21"
+      - "8980:8080"
     restart: always
