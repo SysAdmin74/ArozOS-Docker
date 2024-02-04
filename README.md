@@ -8,9 +8,8 @@ I will be restarting this project and keep it updated with the official ArozOS (
 Please don't use it in actual production environment, if you have awesome ideas feel free to share.
 
 ## Todo List
-- Docker Environment variable support.
-- Maybe Prebuild Image?
-
+- Docker Environment variable support. \[Some variable\]
+- Maybe Prebuild Image? \[Coming Soon\]
 
 ## Run it with docker compose 
 Check docker-compose.yaml before you run. Change the data paths inside the yaml to your path.
@@ -18,7 +17,7 @@ Check docker-compose.yaml before you run. Change the data paths inside the yaml 
 docker-compose up
 ```
 ### Requirement..
-Make sure you have docker-compose installed. In case you can't do things with docker-compose.yaml file.
+Make sure you have docker-compose installed.
 
 ### Networking
-By default HTTP (8980) and FTP (8921) port will be open, if you need others you can modify the yaml file.
+By default HTTP (8980) port will be open, if you need others you can modify the yaml file.
