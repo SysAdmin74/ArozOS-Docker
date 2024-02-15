@@ -6,6 +6,7 @@ I will be restarting this project and keep it updated with the official ArozOS (
 
 ## For your infomation, currently in beta
 Please don't use it in actual production environment, if you have awesome ideas feel free to share.
+Update pre-build binary were used, currenlty only x86-64. Will change it to cross-platform  later...
 
 ## Todo List
 - Docker Environment variable support. \[Some variable\]
