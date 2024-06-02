@@ -1,6 +1,6 @@
-version: "2"
 services:
   app:
+    image: ghcr.io/sysadmin74/arozos
     build: ./container
     volumes:
       - ./container/data/files:/arozos/files
