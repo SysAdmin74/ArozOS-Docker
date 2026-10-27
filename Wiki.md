@@ -153,7 +153,7 @@ Descriptions and defaults are from the pinned upstream help output. Boolean flag
 | `AROZOS_GZIP` | bool | Enable gzip compress on file server (default true) |
 | `AROZOS_HOMEPAGE` | bool | Enable user homepage. Accessible via /www/{username}/ (default true) |
 | `AROZOS_HOST` | string | Listening host for HTTP server |
-| `AROZOS_HOSTNAME` | string | Default name for this host (default "My ArOZ") |
+| `AROZOS_HOSTNAME` | string | Default name for this host (default "My ArOZ Docker") |
 | `AROZOS_IOBUF` | int | Amount of buffer memory for IO operations (default 1024) |
 | `AROZOS_KEY` | string | TLS key file (.key) (default "localhost.key") |
 | `AROZOS_LOGGING` | bool | Enable logging to file for debug purpose (default true) |
