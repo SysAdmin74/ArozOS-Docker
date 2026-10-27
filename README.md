@@ -17,7 +17,7 @@ Open port 8980 on your Docker host. Data persists under `container/data/{files,w
 
 ## Environment configuration
 
-See the [environment configuration wiki](Wiki.md) for the complete variable reference, precedence rules, Docker and Compose examples, HTTPS configuration, persistent storage, and upgrade instructions.
+See the [environment configuration wiki](wiki.md) for the complete variable reference, precedence rules, Docker and Compose examples, HTTPS configuration, persistent storage, and upgrade instructions.
 
 All supported upstream flags map to `AROZOS_*` variables. Legacy lowercase names remain supported. The image runs ArozOS directly so Docker can stop it cleanly; upgrades use image rebuilds instead of the upstream launcher.
 
