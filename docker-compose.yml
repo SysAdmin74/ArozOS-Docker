@@ -1,12 +1,13 @@
-version: "2"
 services:
   app:
     build: ./container
+    env_file:
+      - path: .env
+        required: false
     volumes:
       - ./container/data/files:/arozos/files
       - ./container/data/web:/arozos/web
       - ./container/data/system:/arozos/system
-
     ports:
-      - "8980:8080"
-    restart: always
+      - "8980:${AROZOS_PORT:-8080}"
+    restart: unless-stopped

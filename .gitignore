@@ -1,0 +1,4 @@
+.env
+container/data/
+
+__pycache__/
