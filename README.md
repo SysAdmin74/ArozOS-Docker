@@ -1,6 +1,7 @@
 # ArozOS-Docker
 
 Docker packaging for [ArozOS by tobychui](https://github.com/tobychui/arozos), using the upstream prebuilt binaries and web assets. This repository maintains the container integration; the application is developed upstream.
+*Update and assist by codex.*
 
 ## Quick start
 
